@@ -65,11 +65,11 @@ class Dashboard:
     def __init__(self):
         self.ABS_PATH_TO_FOLDER = pathlib.Path(__file__).parent.resolve()
         self.renamed_houses = load_parquet_dataset(
-            os.path.join(self.ABS_PATH_TO_FOLDER, "data/cleaned/houses_data.parquet")
+            os.path.join(self.ABS_PATH_TO_FOLDER, "../data/cleaned/houses_data.parquet")
         )
         self.recommended_houses = load_parquet_dataset(
             os.path.join(
-                self.ABS_PATH_TO_FOLDER, "reports/data/final_houses_sale.parquet"
+                self.ABS_PATH_TO_FOLDER, "../reports/data/final_houses_sale.parquet"
             )
         )
 
