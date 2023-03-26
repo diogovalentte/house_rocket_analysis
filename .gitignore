@@ -1,0 +1,18 @@
+# VSCode
+.vscode
+
+# Python
+__pycache__
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Package instalation
+.mypy_cache
+
+# Data
+*.csv
+*.parquet
+!kc_house_data.csv
+!final_houses_sale.parquet
