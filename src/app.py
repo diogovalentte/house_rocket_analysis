@@ -5,7 +5,6 @@ import geopandas
 import pandas as pd
 import seaborn as sns
 import streamlit as st
-import plotly.express as px
 from folium.plugins import MarkerCluster
 from streamlit_folium import folium_static
 from pandas.io.formats.format import DataFrameFormatter
